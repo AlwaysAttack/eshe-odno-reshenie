@@ -15,7 +15,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Frame x:Name="mainstats" BackgroundColor="#DEDEDE" Grid.Row="0" Grid.ColumnSpan="2" CornerRadius="20" Margin="2,0,2,0">
+            <Frame x:Name="mainstats" BackgroundColor="#DEDEDE" Grid.Row="0" Grid.ColumnSpan="2" CornerRadius="20" Margin="2,0,2,0" >
                 <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center">
                     <Image Source="waterfront.jpg" />
                     <StackLayout Orientation="Vertical">
@@ -25,7 +25,7 @@
                 </StackLayout>
             </Frame>
 
-            <ImageButton Source="petAround.png" Grid.Row="1" Grid.ColumnSpan="2" Margin="2,0,2,0" BackgroundColor="Transparent">
+            <ImageButton Source="petAround.png" Grid.Row="1" Grid.ColumnSpan="2" Margin="2,0,2,0" BackgroundColor="Transparent" Clicked="petAround" IsEnabled="True" >
                 <VisualStateManager.VisualStateGroups>
                     <VisualStateGroup x:Name="CommonStates">
                         <VisualState x:Name="Normal">
@@ -45,7 +45,7 @@
                 </VisualStateManager.VisualStateGroups>
             </ImageButton>
 
-            <ImageButton Source="helpPoints.png" Grid.Row="2" Grid.Column="0" Margin="2,0,2,0" BackgroundColor="Transparent">
+            <ImageButton Source="helpPoints.png" Grid.Row="2" Grid.Column="0" Margin="2,0,2,0" BackgroundColor="Transparent" Clicked="helpPoints" IsEnabled="True">
                 <VisualStateManager.VisualStateGroups>
                     <VisualStateGroup x:Name="CommonStates">
                         <VisualState x:Name="Normal">
@@ -65,7 +65,7 @@
                 </VisualStateManager.VisualStateGroups>
             </ImageButton>
 
-            <ImageButton Source="favourites.png" Grid.Row="2" Grid.Column="1" Margin="2,0,2,0" BackgroundColor="Transparent">
+            <ImageButton Source="favourites.png" Grid.Row="2" Grid.Column="1" Margin="2,0,2,0" BackgroundColor="Transparent"  Clicked="favourites" IsEnabled="True">
                 <VisualStateManager.VisualStateGroups>
                     <VisualStateGroup x:Name="CommonStates">
                         <VisualState x:Name="Normal">
@@ -85,7 +85,7 @@ Value="0.99" />
                 </VisualStateManager.VisualStateGroups>
             </ImageButton>
 
-            <ImageButton Source="occupyies.png" Grid.Row="3" Grid.ColumnSpan="2" Margin="2,0,2,0" BackgroundColor="Transparent">
+            <ImageButton Source="occupyies.png" Grid.Row="3" Grid.ColumnSpan="2" Margin="2,0,2,0" BackgroundColor="Transparent" Clicked="occupyies" IsEnabled="True">
                 <VisualStateManager.VisualStateGroups>
                     <VisualStateGroup x:Name="CommonStates">
                         <VisualState x:Name="Normal">

@@ -40,3 +40,25 @@ E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\res
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\bin\Debug\netstandard2.0\ref\resheniekeysa.dll
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\bin\Debug\netstandard2.0\resheniekeysa.pdb
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\bin\Debug\netstandard2.0\resheniekeysa.deps.json
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\bin\Debug\netstandard2.0\resheniekeysa.dll
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\bin\Debug\netstandard2.0\ref\resheniekeysa.dll
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\bin\Debug\netstandard2.0\resheniekeysa.pdb
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\resheniekeysa.csproj.AssemblyReference.cache
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\resheniekeysa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\favourites.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\helpPoints.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\MainMenu.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\MainNavigate.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\occupyies.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\petAround.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\resheniekeysa.AssemblyInfoInputs.cache
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\resheniekeysa.AssemblyInfo.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\resheniekeysa.csproj.CoreCompileInputs.cache
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\resheniekeysa.dll
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\refint\resheniekeysa.dll
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\resheniekeysa.pdb
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\temptest.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\mypet.xaml.g.cs

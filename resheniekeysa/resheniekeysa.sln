@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "resheniekeysa.Android", "resheniekeysa\resheniekeysa.Android\resheniekeysa.Android.csproj", "{7D068423-B485-4841-BB78-5A87D0BEB372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "resheniekeysa", "resheniekeysa\resheniekeysa\resheniekeysa.csproj", "{82225115-E4C0-4B97-ACA5-BA23CB306FB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "resheniekeysa", "resheniekeysa\resheniekeysa\resheniekeysa.csproj", "{82225115-E4C0-4B97-ACA5-BA23CB306FB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CE1DEF0-6B5F-44EF-ABFC-4AAEC4B3E8C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
