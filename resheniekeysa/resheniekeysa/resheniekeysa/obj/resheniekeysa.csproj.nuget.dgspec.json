@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj": {}
+    "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj": {}
   },
   "projects": {
-    "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj": {
+    "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
+        "projectUniqueName": "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
         "projectName": "resheniekeysa",
-        "projectPath": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
+        "projectPath": "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
         "packagesPath": "C:\\Users\\dgols\\.nuget\\packages\\",
-        "outputPath": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\obj\\",
+        "outputPath": "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Other Programms\\VS Packages\\NuGetPackages"
@@ -59,6 +59,14 @@
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Svg.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

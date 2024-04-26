@@ -10,7 +10,7 @@ namespace resheniekeysa
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainNavigate();
         }
 
         protected override void OnStart()

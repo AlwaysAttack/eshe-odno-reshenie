@@ -3,8 +3,15 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "resheniekeysa.Android.dll" comes first in this list. */
 		"resheniekeysa.Android.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Forms.dll",
+		"FFImageLoading.Forms.Platform.dll",
+		"FFImageLoading.Platform.dll",
+		"FFImageLoading.Svg.Forms.dll",
+		"FFImageLoading.Svg.Platform.dll",
 		"FormsViewGroup.dll",
 		"resheniekeysa.dll",
+		"SkiaSharp.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

@@ -1,13 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "4iFOfMmdi6F7dEWQKi5dyawo0Pl+YibiksOi2fGGXYkPvh7xlqaqZUFXAEzBIspAtew9p76N7xIVEnYlZeY/SA==",
+  "dgSpecHash": "wSp5SA5fN0ALrPWPjCXhsCovr2wrCXZccGyL/4Ad+8uOzPIWdHpkdHci6s/cvkv5V6koIB4mQPn69hRdmsdXnQ==",
   "success": true,
-  "projectFilePath": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
+  "projectFilePath": "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dgols\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\dgols\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\dgols\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
     "C:\\Users\\dgols\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\dgols\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\dgols\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\dgols\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\dgols\\.nuget\\packages\\xamarin.ffimageloading.svg\\2.4.11.982\\xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\dgols\\.nuget\\packages\\xamarin.ffimageloading.svg.forms\\2.4.11.982\\xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
     "C:\\Users\\dgols\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
