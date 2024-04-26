@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|e:\\other programms\\vsprojects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\mainmenu.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|solutionrelative:resheniekeysa\\resheniekeysa\\mainmenu.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|e:\\other programms\\vsprojects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\petaround.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|solutionrelative:resheniekeysa\\resheniekeysa\\petaround.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|e:\\other programms\\vsprojects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|solutionrelative:resheniekeysa\\resheniekeysa\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|e:\\other programms\\vsprojects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|solutionrelative:resheniekeysa\\resheniekeysa\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|e:\\other programms\\vsprojects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|solutionrelative:resheniekeysa\\resheniekeysa\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|e:\\other programms\\vsprojects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|solutionrelative:resheniekeysa\\resheniekeysa\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|e:\\other programms\\vsprojects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\occupyies.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|solutionrelative:resheniekeysa\\resheniekeysa\\occupyies.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|e:\\other programms\\vsprojects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\favourites.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|solutionrelative:resheniekeysa\\resheniekeysa\\favourites.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|e:\\other programms\\vsprojects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\helppoints.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|solutionrelative:resheniekeysa\\resheniekeysa\\helppoints.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|e:\\other programms\\vsprojects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|solutionrelative:resheniekeysa\\resheniekeysa\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resheniekeysa\\resheniekeysa\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|e:\\other programms\\vsprojects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{82225115-E4C0-4B97-ACA5-BA23CB306FB7}|resheniekeysa\\resheniekeysa\\resheniekeysa.csproj|solutionrelative:resheniekeysa\\resheniekeysa\\resheniekeysa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dgols\\AppData\\Roaming\\Microsoft\\UserSecrets\\28fe3428-9b5c-4005-9106-a7e868ee53c7\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\MainPage.xaml.cs",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\MainPage.xaml.cs",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T11:45:23.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "favourites.xaml",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\favourites.xaml",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\favourites.xaml",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\favourites.xaml",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\favourites.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T11:43:01.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "helpPoints.xaml",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\helpPoints.xaml",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\helpPoints.xaml",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\helpPoints.xaml",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\helpPoints.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T11:39:51.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\App.xaml.cs",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\App.xaml.cs",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\App.xaml.cs",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T11:34:26.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "petAround.xaml",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\petAround.xaml",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\petAround.xaml",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\petAround.xaml",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\petAround.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T11:31:59.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml.g.cs",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAlwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T11:25:33.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\App.xaml",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\App.xaml",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\App.xaml",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T11:20:51.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenu.xaml",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\MainMenu.xaml",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\MainMenu.xaml",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\MainMenu.xaml",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\MainMenu.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T10:41:56.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "resheniekeysa.csproj",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-26T10:19:18.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\dgols\\AppData\\Roaming\\Microsoft\\UserSecrets\\28fe3428-9b5c-4005-9106-a7e868ee53c7\\secrets.json",
+              "ToolTip": "C:\\Users\\dgols\\AppData\\Roaming\\Microsoft\\UserSecrets\\28fe3428-9b5c-4005-9106-a7e868ee53c7\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-26T10:18:59.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\MainPage.xaml",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\MainPage.xaml",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\MainPage.xaml",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T10:15:02.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "occupyies.xaml",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\occupyies.xaml",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\occupyies.xaml",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\occupyies.xaml",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\occupyies.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T11:44:18.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainMenu.xaml.cs",
+              "DocumentMoniker": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\MainMenu.xaml.cs",
+              "RelativeDocumentMoniker": "resheniekeysa\\resheniekeysa\\MainMenu.xaml.cs",
+              "ToolTip": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\MainMenu.xaml.cs",
+              "RelativeToolTip": "resheniekeysa\\resheniekeysa\\MainMenu.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T11:32:18.531Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

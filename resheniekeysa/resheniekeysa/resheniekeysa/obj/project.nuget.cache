@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "4iFOfMmdi6F7dEWQKi5dyawo0Pl+YibiksOi2fGGXYkPvh7xlqaqZUFXAEzBIspAtew9p76N7xIVEnYlZeY/SA==",
+  "success": true,
+  "projectFilePath": "E:\\Other Programms\\VSProjects\\program-elkinkod-technotitans\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dgols\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dgols\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\dgols\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\dgols\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\dgols\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

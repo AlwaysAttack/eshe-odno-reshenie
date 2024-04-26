@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="resheniekeysa.MainMenu">
+    <ContentPage.Content>
+        <Grid Margin="20" RowSpacing="20" ColumnSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="100*"/>
+                <RowDefinition Height="200*"/>
+                <RowDefinition Height="200*"/>
+                <RowDefinition Height="200*"/>
+                <RowDefinition Height="300*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Frame x:Name="mainstats" BackgroundColor="#DEDEDE" Grid.Row="1" Grid.ColumnSpan="2" CornerRadius="20" Margin="2">
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center">
+                    <Image Source="waterfront.jpg" />
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Ваш рейтинг"/>
+                        <Label Text="Спасибо, что помогаете животным!"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame x:Name="petAround" BackgroundColor="#FFFFFF" Grid.Row="2" Grid.ColumnSpan="2" CornerRadius="20" Margin="2">
+                <Label VerticalOptions="End" HorizontalOptions="Start" Text="Питомцы рядом" Margin="5"></Label>
+            </Frame>
+
+            <Frame x:Name="helpPoints" BackgroundColor="#FFFFFF"  Grid.Row="3" Grid.Column="0" CornerRadius="20" Margin="2">
+                <Label VerticalOptions="End" HorizontalOptions="Start" Text="Помощь приюту" Margin="5"></Label>
+            </Frame>
+
+            <Frame x:Name="favourites" BackgroundColor="#FFFFFF" Grid.Row="3" Grid.Column="1" CornerRadius="20" Margin="2">
+                <Label VerticalOptions="End" HorizontalOptions="Start" Text="Избранные" Margin="5"></Label>
+            </Frame>
+
+            <Frame x:Name="occupyies" BackgroundColor="#FFFFFF" Grid.Row="4" Grid.ColumnSpan="2" CornerRadius="20" Margin="2">
+                <Label VerticalOptions="End" HorizontalOptions="Start" Text="Избранные" Margin="5"></Label>
+            </Frame>
+        </Grid> 
+    </ContentPage.Content>
+</ContentPage>
