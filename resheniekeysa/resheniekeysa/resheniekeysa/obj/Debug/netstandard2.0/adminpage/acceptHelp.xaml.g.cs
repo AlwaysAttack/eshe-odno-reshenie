@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.acceptHelp.xaml", "adminpage/acceptHelp.xaml", typeof(global::Klop.acceptHelp))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.acceptHelp.xaml", "adminpage/acceptHelp.xaml", typeof(global::resheniekeysa.adminpage.acceptHelp))]
 
-namespace Klop {
+namespace resheniekeysa.adminpage {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("adminpage\\acceptHelp.xaml")]

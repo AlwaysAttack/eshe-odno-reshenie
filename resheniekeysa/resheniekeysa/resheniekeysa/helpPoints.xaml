@@ -2,19 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="resheniekeysa.helpPoints">
-    <StackLayout Spacing="10" Margin="20">
-        <StackLayout Orientation="Horizontal" Spacing="100" Margin="5">
-            <Label Text="Помощь приюту"/>
-            <Image/>
-        </StackLayout>
-        <Frame Margin="5" HeightRequest="1">
-
-        </Frame>
-        <Frame Margin="5">
-
-        </Frame>
-        <Frame Margin="5">
-
-        </Frame>
+    <StackLayout Margin="10" Spacing="15">
+        <Button x:Name="DonatePointsButton"  Margin="5" Text="Пожертвовать" CornerRadius="20" Clicked="DonatePointsButton_Clicked"/>
     </StackLayout>
 </ContentPage>

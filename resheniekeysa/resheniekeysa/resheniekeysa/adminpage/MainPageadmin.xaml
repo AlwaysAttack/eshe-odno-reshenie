@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Klop.MainPage">
+             x:Class="resheniekeysa.adminpage.MainPageAdmin">
 
     <Grid Margin="5">
         <Grid.RowDefinitions>
@@ -20,6 +20,25 @@
         <Button TextColor="Black" Grid.Row="0" Grid.Column="1" Text="Управление карточками питомцев"  BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_editProfiles"/>
         <Button TextColor="Black" Grid.Row="1" Grid.Column="1" Text="Присвоить статус опекунства/занятости питомцам" BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_statusProfiler"/>
         <Button TextColor="Black" Grid.Row="1" Grid.Column="0" Text="Принять запрос пользователя по горячей линии (оператор)" BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_acceptRequest"/>
+        <ImageButton Grid.Row="2" Grid.Column="1" Source="leaveIcon.png"  VerticalOptions="End" HorizontalOptions="End" BackgroundColor="Transparent" CornerRadius="100" Margin="5">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+    Value="1" />
+                        </VisualState.Setters>
+                    </VisualState>
+
+                    <VisualState x:Name="Pressed">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+    Value="0.99" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </ImageButton>
     </Grid>
 
 </ContentPage>

@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.editProfiles.xaml", "adminpage/editProfiles.xaml", typeof(global::Klop.editProfiles))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.editProfiles.xaml", "adminpage/editProfiles.xaml", typeof(global::resheniekeysa.adminpage.editProfiles))]
 
-namespace Klop {
+namespace resheniekeysa.adminpage {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("adminpage\\editProfiles.xaml")]

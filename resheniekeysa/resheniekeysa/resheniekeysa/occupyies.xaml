@@ -2,11 +2,78 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="resheniekeysa.occupyies">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor"
+                                Value="#DEDEDE" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+    <StackLayout Spacing="10" Margin="20">
+        <StackLayout Orientation="Horizontal" Spacing="100" Margin="5">
+            <Label Text="Опекунство"/>
+
+            <Image/>
         </StackLayout>
-    </ContentPage.Content>
+        <BoxView Margin="0,10,0,10" HeightRequest="2" BackgroundColor="#9B9B9B"></BoxView>
+
+        <CollectionView ItemsSource="{Binding DogsList}" SelectionMode="Single" SelectionChanged="CollectionView_SelectionChanged" SelectedItem="{Binding Col_item}">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="20"/>
+
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <ContentView BackgroundColor="White">
+                        <Grid Padding="5"
+                      RowDefinitions="8*, 6*"
+                      ColumnDefinitions="*, *">
+                            <Image Grid.Row="0" Grid.ColumnSpan="2" Source="{Binding PATHPHOTO}" Aspect="AspectFill" HeightRequest="60" WidthRequest="60"></Image>
+                            <StackLayout Grid.Row="1" Orientation="Vertical" Spacing="3" Margin="5">
+
+                                <Label FontSize="Large" Text="{Binding NAME}" FontAttributes="Bold">
+                                </Label>
+
+                                <Label FontSize="Large">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="На данный момент:" />
+                                            <Span Text=" " />
+                                            <Span Text="{Binding BUSY}" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label FontSize="Small">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Номер ID:" />
+                                            <Span Text=" " />
+                                            <Span Text="{Binding ID}" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                            </StackLayout>
+                            <Label Grid.Row="1" Grid.Column="1" VerticalOptions="End" HorizontalOptions="End" Margin="2" Text="Нажмите, чтобы посмотреть">
+                            </Label>
+
+                        </Grid>
+                    </ContentView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+    </StackLayout>
 </ContentPage>

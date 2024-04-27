@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.statusProfiler.xaml", "adminpage/statusProfiler.xaml", typeof(global::Klop.statusProfiler))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.statusProfiler.xaml", "adminpage/statusProfiler.xaml", typeof(global::resheniekeysa.adminpage.statusProfiler))]
 
-namespace Klop {
+namespace resheniekeysa.adminpage {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("adminpage\\statusProfiler.xaml")]

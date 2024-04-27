@@ -3,30 +3,88 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="resheniekeysa.DogDetailPage">
     <Grid 
-        RowDefinitions="5*, 3*, 3*, 15*" ColumnDefinitions="*, *">
-        <Image Grid.Row="0" HeightRequest="300" Source="{Binding PathPhoto}"/>
-        <Label Grid.Row="1" HorizontalOptions="Start" Text="{Binding Name}"/>
-        <Label Grid.Row="2" HorizontalOptions="Start" Text="{Binding Weight}"/>
-        <Label Grid.Row="3" HorizontalOptions="Start" Text="{Binding Nedforfood}"/>
-        <Label Grid.Row="4" HorizontalOptions="Start" Text="{Binding Busy}"/>
-        <Label Grid.Row="5" HorizontalOptions="Start" Text="{Binding Guardianship}"/>
-        <Label Grid.Row="6" HorizontalOptions="Start" Text="{Binding Walktime}"/>
-        <Label Grid.Row="7" HorizontalOptions="Start" Text="{Binding Foodtype}"/>
-        
-        <ImageButton Grid.Row="1" Grid.Column="1" VerticalOptions="Start" HorizontalOptions="End" BackgroundColor="Transparent" Source="buttonFav.png" Margin="5">
+        RowDefinitions="10*, 5*, 3*, 12*" ColumnDefinitions="*, *">
+        <Image Grid.Row="0" Grid.ColumnSpan="2" HeightRequest="300" Source="{Binding PathPhoto}"/>
+        <Frame BackgroundColor="#dedede" CornerRadius="20" Grid.Row="1" Grid.ColumnSpan="2">
+            <StackLayout Spacing="3">
+                <Label HorizontalOptions="Start" Text="{Binding Name}"/>
+
+                <Label FontSize="Default">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Вес:" />
+                            <Span Text=" " />
+                            <Span Text="{Binding Weight}" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label FontSize="Default">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Потребность в еде:" />
+                            <Span Text=" " />
+                            <Span Text="{Binding Nedforfood}" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label FontSize="Default">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="На данный момент:" />
+                            <Span Text=" " />
+                            <Span Text="{Binding Busy}" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label FontSize="Default">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Есть ли опекун:" />
+                            <Span Text=" " />
+                            <Span Text="{Binding Guardianship}" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+
+                <Label FontSize="Default">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Часы прогулки:" />
+                            <Span Text=" " />
+                            <Span Text="{Binding Walktime}" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label FontSize="Default">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Тип корма:" />
+                            <Span Text=" " />
+                            <Span Text="{Binding Foodtype}" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </Frame>
+        <ImageButton Grid.Row="1" Grid.Column="1" VerticalOptions="Start" HorizontalOptions="End" BackgroundColor="Transparent" Source="buttonFav.png" Margin="5" Clicked="ImageButton_Clicked">
             <VisualStateManager.VisualStateGroups>
                 <VisualStateGroup x:Name="CommonStates">
                     <VisualState x:Name="Normal">
                         <VisualState.Setters>
                             <Setter Property="Scale"
-                                               Value="1" />
+                                       Value="1" />
                         </VisualState.Setters>
                     </VisualState>
 
                     <VisualState x:Name="Pressed">
                         <VisualState.Setters>
                             <Setter Property="Scale"
-                                           Value="0.99" />
+                                   Value="0.99" />
                         </VisualState.Setters>
                     </VisualState>
                 </VisualStateGroup>
@@ -52,23 +110,23 @@
             </VisualStateManager.VisualStateGroups>
         </ImageButton>
         <ImageButton Grid.Row="3" Grid.Column="1" x:Name="AllActions" BackgroundColor="Transparent" Source="allActions.png" Clicked="AllActions_Clicked" Margin="5">
-            <VisualStateManager.VisualStateGroups>
-                <VisualStateGroup x:Name="CommonStates">
-                    <VisualState x:Name="Normal">
-                        <VisualState.Setters>
-                            <Setter Property="Scale"
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal">
+                            <VisualState.Setters>
+                                <Setter Property="Scale"
                                                    Value="1" />
-                        </VisualState.Setters>
-                    </VisualState>
+                            </VisualState.Setters>
+                        </VisualState>
 
-                    <VisualState x:Name="Pressed">
-                        <VisualState.Setters>
-                            <Setter Property="Scale"
+                        <VisualState x:Name="Pressed">
+                            <VisualState.Setters>
+                                <Setter Property="Scale"
                                                 Value="0.99" />
-                        </VisualState.Setters>
-                    </VisualState>
-                </VisualStateGroup>
-            </VisualStateManager.VisualStateGroups>
-        </ImageButton>
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+            </ImageButton>
     </Grid>
 </ContentPage>

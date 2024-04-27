@@ -2032,3 +2032,9 @@ C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\r
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\occupyies.png
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\petaround.png
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\walktime.png
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\bin\Debug\DataBase.sqlite3
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\drawable.rar
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\allactions.png
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\buttonfavpressed.png
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\guardianshipadog.png
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\walktime.png

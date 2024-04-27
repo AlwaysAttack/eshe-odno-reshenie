@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.MainPageadmin.xaml", "adminpage/MainPageadmin.xaml", typeof(global::Klop.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.MainPageAdmin.xaml", "adminpage/MainPageAdmin.xaml", typeof(global::resheniekeysa.adminpage.MainPageAdmin))]
 
-namespace Klop {
+namespace resheniekeysa.adminpage {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("adminpage\\MainPageadmin.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("adminpage\\MainPageAdmin.xaml")]
+    public partial class MainPageAdmin : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPageAdmin));
         }
     }
 }

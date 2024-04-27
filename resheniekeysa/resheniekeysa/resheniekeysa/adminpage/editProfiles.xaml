@@ -1,31 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Klop.editProfiles">
+             x:Class="resheniekeysa.adminpage.editProfiles">
     <StackLayout>
-        <CollectionView ItemsSource="{Binding IDProfiles}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Padding="5" Spacing="5">
-                        <Frame CornerRadius="20" BackgroundColor="White">
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition/>
-                                    <RowDefinition/>
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition/>
-                                    <ColumnDefinition/>
-                                </Grid.ColumnDefinitions>
-                                <Label Grid.Column="0" Grid.Row="0" x:Name="IDdog"/>
-                                <Label Grid.Column="0" Grid.Row="1" x:Name="NameDog"/>
-                                <Button Grid.RowSpan="2" Grid.Column="1" Text="Удалить профиль" Margin="5"/>
-                            </Grid>
-                        </Frame>
+    <CollectionView ItemsSource="{Binding DogsList}" SelectionMode="Single" SelectionChanged="CollectionView_SelectionChanged" SelectedItem="{Binding Col_item}">
+    <CollectionView.ItemsLayout>
+        <LinearItemsLayout Orientation="Vertical" ItemSpacing="20"/>
+
+    </CollectionView.ItemsLayout>
+    <CollectionView.ItemTemplate>
+        <DataTemplate>
+            <ContentView BackgroundColor="White">
+                <Grid Padding="2"
+                          ColumnDefinitions="2*, 9*, 2*">
+                    <Image Source="{Binding PATHPHOTO}"></Image>
+                    <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="3" Margin="5">
+
+                        <Label FontSize="Large" Text="{Binding NAME}" FontAttributes="Bold">
+                        </Label>
+
+                        <Label FontSize="Small">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Номер ID:" />
+                                    <Span Text=" " />
+                                    <Span Text="{Binding ID}" FontAttributes="Bold" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
                     </StackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-        <Button Text="Добавить нового питомца" HorizontalOptions="Center"/>
+
+
+                    <Button Grid.Column="2" Text="Удалить профиль" Margin="5"/>
+
+                </Grid>
+            </ContentView>
+        </DataTemplate>
+    </CollectionView.ItemTemplate>
+</CollectionView>
     </StackLayout>
 </ContentPage>

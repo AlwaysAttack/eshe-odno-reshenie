@@ -99,8 +99,10 @@ namespace resheniekeysa
         {
             await Navigation.PushAsync(new ActionsDogChoosed());
         }
-       
 
-    
+        private void ImageButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

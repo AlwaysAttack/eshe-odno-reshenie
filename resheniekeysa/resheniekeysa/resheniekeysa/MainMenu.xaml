@@ -23,9 +23,17 @@
 
             <Frame x:Name="mainstats" BackgroundColor="#DEDEDE" Grid.Row="0" Grid.ColumnSpan="2" CornerRadius="20" Margin="2,0,2,0" >
                 <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center">
-                    <Image Source="waterfront.jpg" />
+                    <Image Source="account.png"/>
                     <StackLayout Orientation="Vertical">
-                        <Label Text="Ваш рейтинг"/>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Ваш рейтинг:" />
+                                    <Span Text=" " />
+                                    <Span Text="Какой-то там лвл" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
                         <Label Text="Спасибо, что помогаете животным!"/>
                     </StackLayout>
                 </StackLayout>

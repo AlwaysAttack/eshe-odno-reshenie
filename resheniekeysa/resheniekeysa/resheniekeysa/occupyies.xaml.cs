@@ -15,6 +15,11 @@ namespace resheniekeysa
         public occupyies()
         {
             InitializeComponent();
+            // не забудь перенести с petAround
+        }
+
+        private void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
 
         }
     }

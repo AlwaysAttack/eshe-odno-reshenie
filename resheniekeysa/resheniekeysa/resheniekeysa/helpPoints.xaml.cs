@@ -16,5 +16,11 @@ namespace resheniekeysa
         {
             InitializeComponent();
         }
+
+
+        async void DonatePointsButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new donatePointChoosed());
+        }
     }
 }

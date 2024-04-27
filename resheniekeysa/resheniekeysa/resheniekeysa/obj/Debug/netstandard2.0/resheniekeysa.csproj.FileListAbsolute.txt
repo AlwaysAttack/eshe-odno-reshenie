@@ -83,3 +83,15 @@ C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\r
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\donateFoodChoosed.xaml.g.cs
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\GuardSChoosed.xaml.g.cs
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\walkingTimeChoosed.xaml.g.cs
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\bin\Debug\netstandard2.0\DataBase.sqlite3
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\ActionsDogChoosed.xaml.g.cs
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\adminpage\acceptHelp.xaml.g.cs
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\adminpage\editProfiles.xaml.g.cs
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\adminpage\MainPageadmin.xaml.g.cs
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\adminpage\statusProfiler.xaml.g.cs
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\DogDetailPage.xaml.g.cs
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\donateFoodChoosed.xaml.g.cs
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\GuardSChoosed.xaml.g.cs
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\walkingTimeChoosed.xaml.g.cs
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\donatePointChoosed.xaml.g.cs
+E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\adminpage\acceptRequests.xaml.g.cs

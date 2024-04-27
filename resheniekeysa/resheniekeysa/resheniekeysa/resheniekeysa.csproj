@@ -21,29 +21,23 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="adminpage\MainPageadmin.xaml.cs">
-      <DependentUpon>MainPageadmin.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Update="ActionsDogChoosed.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="adminpage\acceptHelp.xaml">
-      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="adminpage\acceptRequest.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <EmbeddedResource Update="adminpage\acceptRequests.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="adminpage\editProfiles.xaml">
-      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="adminpage\MainPageadmin.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <EmbeddedResource Update="adminpage\MainPageAdmin.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="adminpage\statusProfiler.xaml">
-      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="chAccountContent.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -53,6 +47,9 @@
     </EmbeddedResource>
     <EmbeddedResource Update="donateFoodChoosed.xaml">
       <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="donatePointChoosed.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="favourites.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>

@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Klop
+namespace resheniekeysa.adminpage
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class acceptHelp : ContentPage
-    {
-        public acceptHelp()
-        {
-            InitializeComponent();
-        }
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class acceptHelp : ContentPage
+	{
+		public acceptHelp ()
+		{
+			InitializeComponent ();
+		}
 
         private void Button_Clicked(object sender, EventArgs e)
         {

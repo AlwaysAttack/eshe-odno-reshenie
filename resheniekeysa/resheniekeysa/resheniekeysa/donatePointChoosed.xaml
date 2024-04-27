@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="resheniekeysa.donatePointChoosed">
+    <ContentPage.Content>
+        <StackLayout Margin="15">
+            <Entry x:Name="PhoneNumber"
+       Placeholder="Номер телефона"></Entry>
+            <Entry x:Name="NameHelper" Placeholder="Ваше имя"/>
+            <Button x:Name="sendREQUESTdonatePoint" Text="Отправить запрос" BackgroundColor="#65AC64" CornerRadius="20" Clicked="sendREQUESTdonatePoint_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

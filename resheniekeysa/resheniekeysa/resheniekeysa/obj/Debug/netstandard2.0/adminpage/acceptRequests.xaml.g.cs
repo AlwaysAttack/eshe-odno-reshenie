@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.acceptRequest.xaml", "adminpage/acceptRequest.xaml", typeof(global::Klop.acceptRequest))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.acceptRequests.xaml", "adminpage/acceptRequests.xaml", typeof(global::resheniekeysa.adminpage.acceptRequests))]
 
-namespace Klop {
+namespace resheniekeysa.adminpage {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("adminpage\\acceptRequest.xaml")]
-    public partial class acceptRequest : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("adminpage\\acceptRequests.xaml")]
+    public partial class acceptRequests : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(acceptRequest));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(acceptRequests));
         }
     }
 }

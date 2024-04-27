@@ -7,14 +7,19 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Klop
+namespace resheniekeysa.adminpage
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class editProfiles : ContentPage
-    {
-        public editProfiles()
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class editProfiles : ContentPage
+	{
+		public editProfiles ()
+		{
+			InitializeComponent ();
+		}
+
+        private void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            InitializeComponent();
+
         }
     }
 }

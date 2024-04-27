@@ -33,7 +33,7 @@ namespace resheniekeysa
         
         async void helpPoints(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new ActionsDogChoosed());
+            await Navigation.PushAsync(new helpPoints());
 
         }
         
