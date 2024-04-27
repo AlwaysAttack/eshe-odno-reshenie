@@ -73,3 +73,13 @@ C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\r
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\login.xaml.g.cs
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\register.xaml.g.cs
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\bin\Debug\netstandard2.0\DataBase.sqlite3
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\adminpage\acceptHelp.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\adminpage\acceptRequest.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\adminpage\editProfiles.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\adminpage\MainPageadmin.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\adminpage\statusProfiler.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\ActionsDogChoosed.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\DogDetailPage.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\donateFoodChoosed.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\GuardSChoosed.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\walkingTimeChoosed.xaml.g.cs

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Klop;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,7 +10,8 @@ namespace resheniekeysa
         public App()
         {
             InitializeComponent();
-             
+            
+            //MainPage = new NavigationPage(new MainPage());  
             MainPage = new MainNavigate();
         }
 

@@ -22,6 +22,12 @@ namespace resheniekeysa
         private async void Reg(object sender, EventArgs e)
         {
 			try {
+              
+        
+            
+             
+            
+        
                 string log;
                 string pass;
                 log = Login.Text.Trim();
@@ -32,6 +38,7 @@ namespace resheniekeysa
                 if (Model.Log_status == true)
                 {
                     await Navigation.PushAsync(new temptest());
+                  
                 }
           
             }

@@ -11,9 +11,16 @@ namespace resheniekeysa
         public static IList<Dogs> DogsList { get; set; } 
         public static Users MainUser;
         public static bool Log_status;
+        public  enum foodtype
+        {
+            Purina_Pro_Plan_Opti_Age_Small_Mini_Adult,
+            TitBit_Колбаски,
+            Brit_Premium_By_Nature,
+            Pedigree
+        }
          static Model()
         {
-           DogsList = new List<Dogs>();
+          
             DogsList = DBCONN.Db.GetDogs();
         }
         public static void registr_log(string log, string pass)

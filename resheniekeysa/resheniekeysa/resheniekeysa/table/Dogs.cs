@@ -12,9 +12,9 @@ namespace resheniekeysa.table
         public int ID { get; set; }
         public string NAME { get; set; }
         public string PATHPHOTO { get; set; }
-        public float WEIGHT { get; set; }
+        public string WEIGHT { get; set; }
 
-        public float NEDFORFOOD { get; set; }//потребность в еде кг\день
+        public string NEDFORFOOD { get; set; }//потребность в еде кг\день
 
         public bool BUSY { get; set; }//занятость 
         public bool GUARDIANSHIP { get; set; }//опекунство

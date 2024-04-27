@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="resheniekeysa.DogDetailPage">
+    <Grid 
+        RowDefinitions="5*, 3*, 3*, 15*" ColumnDefinitions="*, *">
+        <Image Grid.Row="0" HeightRequest="300" Source="{Binding PATHPHOTO}"/>
+        <Label Grid.Row="1" HorizontalOptions="Start" Text="{Binding NAME}"/>
+        <Label Grid.Row="2" HorizontalOptions="Start" Text="{Binding BUSY}"/>
+        <ImageButton Grid.Row="1" Grid.Column="1" VerticalOptions="Start" HorizontalOptions="End" BackgroundColor="Transparent" Source="buttonFav.png" Margin="5">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+                                               Value="1" />
+                        </VisualState.Setters>
+                    </VisualState>
+
+                    <VisualState x:Name="Pressed">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+                                           Value="0.99" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </ImageButton>
+        <ImageButton Grid.Row="3" Grid.Column="0" x:Name="Guardianships" BackgroundColor="Transparent" Source="walkTime.png" Clicked="Guardianships_Clicked" Margin="5">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+            Value="1" />
+                        </VisualState.Setters>
+                    </VisualState>
+
+                    <VisualState x:Name="Pressed">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+            Value="0.99" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </ImageButton>
+        <ImageButton Grid.Row="3" Grid.Column="1" x:Name="AllActions" BackgroundColor="Transparent" Source="allActions.png" Clicked="AllActions_Clicked" Margin="5">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+                                                   Value="1" />
+                        </VisualState.Setters>
+                    </VisualState>
+
+                    <VisualState x:Name="Pressed">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+                                                Value="0.99" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </ImageButton>
+    </Grid>
+</ContentPage>

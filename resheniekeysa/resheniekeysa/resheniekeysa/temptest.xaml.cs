@@ -15,11 +15,22 @@ namespace resheniekeysa
         public temptest()
         {
             InitializeComponent();
+            
         }
-
+        protected override bool OnBackButtonPressed()
+        {
+            // By returning TRUE and not calling base we cancel the hardware back button 🙂
+            base.OnBackButtonPressed();
+            return true;
+        }
         private void Button_Clicked(object sender, EventArgs e)
         {
 
+        }
+
+        private async void Back(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new register());
         }
     }
 }

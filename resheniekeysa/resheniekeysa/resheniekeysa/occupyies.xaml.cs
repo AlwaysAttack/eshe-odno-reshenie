@@ -15,6 +15,7 @@ namespace resheniekeysa
         public occupyies()
         {
             InitializeComponent();
+
         }
     }
 }

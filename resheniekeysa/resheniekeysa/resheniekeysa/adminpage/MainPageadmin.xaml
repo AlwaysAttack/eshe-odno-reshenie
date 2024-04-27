@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Klop.MainPage">
+
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button TextColor="Black" Grid.Row="0" Grid.Column="0" Text="Получить материальную помощь (зачисление волонтёрам)" BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_acceptHelp"/>
+        <Button TextColor="Black" Grid.Row="0" Grid.Column="1" Text="Управление карточками питомцев"  BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_editProfiles"/>
+        <Button TextColor="Black" Grid.Row="1" Grid.Column="1" Text="Присвоить статус опекунства/занятости питомцам" BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_statusProfiler"/>
+        <Button TextColor="Black" Grid.Row="1" Grid.Column="0" Text="Принять запрос пользователя по горячей линии (оператор)" BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_acceptRequest"/>
+    </Grid>
+
+</ContentPage>

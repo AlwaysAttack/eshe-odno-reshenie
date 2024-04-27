@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Klop.acceptHelp">
+    <ContentPage.Content>
+        <StackLayout Margin="10" Spacing="10">
+            <Entry x:Name="IDRequest" Placeholder="Введите ID запроса на помощь"></Entry>
+            <Entry x:Name="NumFood" Placeholder="Введите кол-во корма в кг"></Entry>
+            <Entry x:Name="NumMoney" Placeholder="Введите кол-во полученных денег"></Entry>
+            <Entry x:Name="NumEXP" Placeholder="Доп. очки за другое (100р=60 баллов)"></Entry>
+            <Button Text="Принять изменения" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

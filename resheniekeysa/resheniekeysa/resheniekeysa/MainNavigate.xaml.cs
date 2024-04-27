@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -21,15 +22,20 @@ namespace resheniekeysa
             Children.Add(new NavigationPage(new register()) { IconImageSource = "account.png", BarBackgroundColor = Color.FromHex("65AC64") }) ;
             //Children.Add(new NavigationPage(new temptest()) { IconImageSource = "account.png", BarBackgroundColor = Color.FromHex("65AC64") }) ;
             Children.Add(new NavigationPage(new Finder()) { IconImageSource = "magnifier.png", BarBackgroundColor = Color.FromHex("65AC64") });
-          
-            //Dogs dog = new Dogs()
-            //{
-            //    NAME = "Костя",
-            //    WEIGHT = 79,
-               
 
-            //};
-            //DBCONN.Db.SaveDogs(dog);
+            Dogs dog = new Dogs()
+            {
+                NAME = "даня",
+                WEIGHT = "76",
+                PATHPHOTO = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Resourses/helpPoints.png"),
+                NEDFORFOOD = "0.3",
+                BUSY = false,
+                GUARDIANSHIP = false,
+                WALKTIME = "12.30\\15.30",
+                FOODTYPE = Model.foodtype.Pedigree.ToString()
+                
+            };
+            DBCONN.Db.SaveDogs(dog);
             List<Dogs> a = DBCONN.Db.GetDogs();
             for (int i = 0; i < a.Count; i++)
             {
