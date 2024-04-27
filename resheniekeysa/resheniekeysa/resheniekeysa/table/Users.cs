@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using System.Text;
 using SQLite;
 namespace resheniekeysa.table
@@ -13,5 +14,7 @@ namespace resheniekeysa.table
         public bool ISADMIN { get; set; }
         public int FAVORITES { get; set; }//предпологается хранить id собаки
         public float DONATE_FOOD { get; set; } //пожертвованный корм для собак в кг
+
+        public int EXP { get; set; }
     }
 }

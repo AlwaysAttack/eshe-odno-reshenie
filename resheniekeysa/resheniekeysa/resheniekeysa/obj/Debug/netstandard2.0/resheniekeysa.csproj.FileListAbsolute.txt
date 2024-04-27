@@ -68,3 +68,8 @@ E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\res
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\temptest.xaml.g.cs
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\chAccountContent.xaml.g.cs
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\Finder.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\chAccountContent.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\Finder.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\login.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\obj\Debug\netstandard2.0\register.xaml.g.cs
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa\bin\Debug\netstandard2.0\DataBase.sqlite3

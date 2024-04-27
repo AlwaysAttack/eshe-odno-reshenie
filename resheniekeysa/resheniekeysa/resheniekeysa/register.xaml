@@ -2,15 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="resheniekeysa.register"
-             BackgroundColor="#65AC64">
+             BackgroundColor="#65AC64"
+             NavigationPage.HasBackButton="False">
     
     <StackLayout Margin="40, 50, 40, 0" Spacing="20">
-        <Label Text="Войти"
+        <Label Text="Войти(Зарегистрироваться)"
             VerticalOptions="Start" 
             HorizontalOptions="CenterAndExpand"/>
-        <Entry></Entry>
-        <Entry></Entry>
-        <Button Text="Зарегистрироваться" BackgroundColor="White" CornerRadius="20"></Button>
+        <Entry x:Name="Login"></Entry>
+        <Entry x:Name="Password"></Entry>
+        <Button Text="Зарегистрироваться или войти" TextColor="Black" BackgroundColor="White" CornerRadius="20" Clicked="Reg"></Button>
     </StackLayout>
     
 </ContentPage>

@@ -18,7 +18,15 @@ namespace resheniekeysa
 
         public List<Users> GetUsers()
         {
-            return CONNECTION.Table<Users>().ToList();
+            return CONNECTION.Table<Users>().ToList(); 
+        }
+        public Users GetUser(string login)
+        {
+            return CONNECTION.Table<Users>().Where(us=> us.USERNAME==login).FirstOrDefault();
+        }
+        public Users GetUser(int id)
+        {
+            return CONNECTION.Table<Users>().Where(us => us.ID == id).FirstOrDefault();
         }
         public List<Dogs> GetDogs()
         {
@@ -26,7 +34,7 @@ namespace resheniekeysa
         }
         public void SaveUsers(Users user)
         {
-        CONNECTION.Insert(user);
+           CONNECTION.Insert(user);
         }
         public void SaveDogs(Dogs dog)
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using resheniekeysa.table;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,11 @@ namespace resheniekeysa
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainMenu : ContentPage
     {
+      
         public MainMenu()
         {
             InitializeComponent();
+            
         }
 
         //private void favourites(object sender, EventArgs e)
