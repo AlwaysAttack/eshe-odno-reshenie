@@ -16,11 +16,20 @@ namespace resheniekeysa
         public MainNavigate ()
         {
             InitializeComponent();
-            NavigationPage MainMenu_n = new NavigationPage(new MainMenu());
-            MainMenu_n.IconImageSource = "favourites.png";
+            NavigationPage chAccountContent_n = new NavigationPage(new chAccountContent());
+
+            NavigationPage MainMenu_n = new NavigationPage(new MainMenu())
+            {
+                BarBackgroundColor = Color.FromHex("65AC64")
+                
+            };
+            
+            MainMenu_n.IconImageSource = "home.png";
+            //NavigationPage.SetTitleIconImageSource(this, "logoDR.png");
             Children.Add(MainMenu_n);
-           
-            Children.Add(new temptest() { IconImageSource="helpPoints.png"});
+
+            Children.Add(new NavigationPage(new temptest()) { IconImageSource = "account.png", BarBackgroundColor = Color.FromHex("65AC64") }) ;
+            Children.Add(new NavigationPage(new Finder()) { IconImageSource = "magnifier.png", BarBackgroundColor = Color.FromHex("65AC64") });
             //DB db = new DB("DataBase.db");
             //Dogs dog = new Dogs()
             //{

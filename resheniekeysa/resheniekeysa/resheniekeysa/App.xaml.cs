@@ -9,7 +9,7 @@ namespace resheniekeysa
         public App()
         {
             InitializeComponent();
-
+             
             MainPage = new MainNavigate();
         }
 

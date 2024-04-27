@@ -4,17 +4,47 @@
              x:Class="resheniekeysa.petAround">
     <StackLayout Spacing="10" Margin="20">
         <StackLayout Orientation="Horizontal" Spacing="100" Margin="5">
-            <Label Text="Питомцы рядом"/>
+            <Label Text="Подопечные"/>
             <Image/>
         </StackLayout>
-        <Frame Margin="5" HeightRequest="1">
+        <BoxView Margin="0,10,0,10" HeightRequest="2" BackgroundColor="#9B9B9B"></BoxView>
+        <CollectionView
+            ItemsSource="{Binding alldogs}">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical">
+                </GridItemsLayout>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="White" CornerRadius="20" BorderColor="White">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="5*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
 
-        </Frame>
-        <Frame Margin="5">
+                            <Image Grid.ColumnSpan="2" Grid.Row="0"/>
+                            
+                            <Label Text="ИМЯ" Grid.Row="1"/>
+                            <Label Text="ОПИСАНИЕ" Grid.Row="2"/>
+                            <Label Text="На данный момент:" Grid.Row="3"/>
+                            <Label Text="Опекунство:" Grid.Row="4"/>
+                            <Label Text="Приют" Grid.Row="5"/>
 
-        </Frame>
-        <Frame Margin="5">
-
-        </Frame>
+                            <ImageButton Grid.Row="1" HorizontalOptions="End" BackgroundColor="Transparent" Source="buttonFav.png"></ImageButton>
+                            <Button BackgroundColor="#65AC64" CornerRadius="20" Grid.Row="5" HorizontalOptions="End" Margin="5" WidthRequest="30" Text="Подробнее"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </StackLayout>
 </ContentPage>

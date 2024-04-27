@@ -2,11 +2,58 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="resheniekeysa.temptest">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to .Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center" Spacing="10">
+            <Image Source="logoDR.png" HeightRequest="45">
+            </Image>
         </StackLayout>
-    </ContentPage.Content>
+    </NavigationPage.TitleView>
+    <StackLayout>
+        <Image Source="account.png" Margin="0,10,0,0">
+        </Image>
+        <Label Text="ВАШЕ ИМЯ" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <BoxView Margin="0,10,0,10" HeightRequest="2" BackgroundColor="#9B9B9B"></BoxView>
+        <Frame Grid.Row="0" Grid.RowSpan="3" Grid.ColumnSpan="2" BackgroundColor="#DEDEDE" CornerRadius="20" Margin="15">
+            <StackLayout>
+                <Label Text="Ваша статистика:" FontSize="Medium" FontAttributes="Bold"/>
+                <BoxView Margin="1,10,1,10" HeightRequest="2" BackgroundColor="#9B9B9B"></BoxView>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="Ваш уровень:" FontSize="Body"/>
+            </StackLayout>
+        </Frame>
+
+        <ImageButton Source="leaveIcon.png"  VerticalOptions="End" HorizontalOptions="End" BackgroundColor="Transparent" CornerRadius="100" Margin="5">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+            Value="1" />
+                        </VisualState.Setters>
+                    </VisualState>
+
+                    <VisualState x:Name="Pressed">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+            Value="0.99" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </ImageButton>
+        <!--<Button VerticalOptions="EndAndExpand" HorizontalOptions="Center" BackgroundColor="#E54D4D" Text="Выйти из аккаунта" Clicked="Button_Clicked" Margin="0,0,0,20" CornerRadius="20"/>-->
+    </StackLayout>
+        
+        
 </ContentPage>

@@ -5,7 +5,9 @@
             xmlns:svg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             android:TabbedPage.ToolbarPlacement="Bottom"
-            android:TabbedPage.IsSmoothScrollEnabled="True"
+            android:TabbedPage.IsSmoothScrollEnabled="False"
+            android:TabbedPage.IsSwipePagingEnabled="False"
             BarBackgroundColor="White"
-            BarTextColor="White">
+            BarTextColor="White" SelectedTabColor="#65AC64">
+            
 </TabbedPage>

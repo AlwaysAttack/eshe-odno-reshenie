@@ -4018,24 +4018,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Okunk\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dgols\\.nuget\\packages\\": {},
+    "E:\\Other Programms\\VS Packages\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Okunk\\Documents\\GitHub\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa.Android\\resheniekeysa.Android.csproj",
+      "projectUniqueName": "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa.Android\\resheniekeysa.Android.csproj",
       "projectName": "resheniekeysa.Android",
-      "projectPath": "C:\\Users\\Okunk\\Documents\\GitHub\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa.Android\\resheniekeysa.Android.csproj",
-      "packagesPath": "C:\\Users\\Okunk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Okunk\\Documents\\GitHub\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa.Android\\obj\\",
+      "projectPath": "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa.Android\\resheniekeysa.Android.csproj",
+      "packagesPath": "C:\\Users\\dgols\\.nuget\\packages\\",
+      "outputPath": "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "E:\\Other Programms\\VS Packages\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Okunk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dgols\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4049,11 +4049,16 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\Okunk\\Documents\\GitHub\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj": {
-              "projectPath": "C:\\Users\\Okunk\\Documents\\GitHub\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj"
+            "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj": {
+              "projectPath": "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj"
             }
           }
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4063,7 +4068,19 @@
             "target": "Package",
             "version": "[1.7.0, )"
           },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
           "Xamarin.FFImageLoading.Forms": {
+            "target": "Package",
+            "version": "[2.4.11.982, )"
+          },
+          "Xamarin.FFImageLoading.Forms": {
+            "target": "Package",
+            "version": "[2.4.11.982, )"
+          },
+          "Xamarin.FFImageLoading.Svg.Forms": {
             "target": "Package",
             "version": "[2.4.11.982, )"
           },
@@ -4074,6 +4091,14 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2196, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.9.172, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",
