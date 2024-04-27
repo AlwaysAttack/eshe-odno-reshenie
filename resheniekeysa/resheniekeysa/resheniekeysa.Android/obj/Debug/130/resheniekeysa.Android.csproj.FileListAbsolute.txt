@@ -1354,10 +1354,6 @@ C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\r
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\mipmap-xxxhdpi\icon.png
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\favourites.png
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\helppoints.png
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\occupyies.png
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\petaround.png
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\uploadflags.txt
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\resolvedassemblies.hash
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\android\assets\FFImageLoading.dll
@@ -2019,13 +2015,20 @@ E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\res
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\magnifier.png
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\leaveicon.png
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\buttonfav.png
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\interestingpic1.jpg
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\logodr.png
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\account.png
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\home.png
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\magnifier.png
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\leaveicon.png
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\buttonfav.png
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\bin\Debug\DataBase.sqlite3
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\drawable.rar
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\account.png
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\allactions.png
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\buttonfav.png
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\buttonfavpressed.png
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\favourites.png
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\guardianshipadog.png
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\helppoints.png
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\home.png
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\interestingpic1.jpg
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\leaveicon.png
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\logodr.png
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\magnifier.png
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\occupyies.png
+C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\petaround.png
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\walktime.png

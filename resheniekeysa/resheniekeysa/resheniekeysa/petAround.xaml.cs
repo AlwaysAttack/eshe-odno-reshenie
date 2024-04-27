@@ -48,10 +48,20 @@ namespace resheniekeysa
 
         private async void select(object sender, SelectionChangedEventArgs e)
         {
-            await Navigation.PushAsync(new DogDetailPage());
-         
+            string dogID = (e.CurrentSelection.FirstOrDefault() as Dogs).ID.ToString();
+            var authdg=Model.DogsList.Where(a=>a.ID.ToString()== dogID).FirstOrDefault();
+            if(authdg!=null)
+            {
+                await Navigation.PushAsync(new DogDetailPage(authdg));
+            }
+            // This works because route names are unique in this application.
+            //await Shell.Current.GoToAsync($"dogdetails?name={dogName}");
+            // The full route is shown below.
+            //await Shell.Current.GoToAsync($"//Model/DogsList/dogdetails?name={dogName}");
         }
 
-    
     }
+
+    
+    
 }

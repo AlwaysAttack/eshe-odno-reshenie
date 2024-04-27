@@ -14,33 +14,60 @@ namespace resheniekeysa
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainNavigate : TabbedPage
     {
-        public MainNavigate ()
+        public MainNavigate()
         {
             InitializeComponent();
             //NavigationPage chAccountContent_n = new NavigationPage(new chAccountContent());
-            Children.Add(new NavigationPage(new MainMenu()) { BarBackgroundColor = Color.FromHex("65AC64"), IconImageSource="home.png"});
-            Children.Add(new NavigationPage(new register()) { IconImageSource = "account.png", BarBackgroundColor = Color.FromHex("65AC64") }) ;
+            Children.Add(new NavigationPage(new MainMenu()) { BarBackgroundColor = Color.FromHex("65AC64"), IconImageSource = "home.png" });
+            Children.Add(new NavigationPage(new register()) { IconImageSource = "account.png", BarBackgroundColor = Color.FromHex("65AC64") });
             //Children.Add(new NavigationPage(new temptest()) { IconImageSource = "account.png", BarBackgroundColor = Color.FromHex("65AC64") }) ;
             Children.Add(new NavigationPage(new Finder()) { IconImageSource = "magnifier.png", BarBackgroundColor = Color.FromHex("65AC64") });
 
+            //DBCONN.Db.DEL<Dogs>();
+            //Users users = new Users()
+            //{
+
+            //    USERNAME = "TestUser",
+            //    PASSWORD = "1234",
+            //    EXP = 200,
+            //    DONATE_FOOD = 345,
+            //    ISADMIN = false
+
+
+            //};
             Dogs dog = new Dogs()
             {
-                NAME = "даня",
-                WEIGHT = "76",
-                PATHPHOTO = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Resourses/helpPoints.png"),
-                NEDFORFOOD = "0.3",
-                BUSY = false,
-                GUARDIANSHIP = false,
-                WALKTIME = "12.30\\15.30",
-                FOODTYPE = Model.foodtype.Pedigree.ToString()
-                
-            };
-            DBCONN.Db.SaveDogs(dog);
-            List<Dogs> a = DBCONN.Db.GetDogs();
-            for (int i = 0; i < a.Count; i++)
-            {
-                Console.WriteLine(a[i].WEIGHT);
+            //    NAME = "даня",
+            //    WEIGHT = "76",
+            //    PATHPHOTO = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Resourses/helpPoints.png"),
+            //    NEDFORFOOD = "0.3",
+            //    BUSY = false,
+            //    GUARDIANSHIP = false,
+            //    WALKTIME = "12.30\\15.30",
+            //    FOODTYPE = Model.foodtype.Pedigree.ToString()
+            //};
+            //     //Dogs dog = new Dogs()
+            //     //{
+            //NAME = "костя",
+            //    WEIGHT = "89",
+            //    PATHPHOTO = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Resourses/helpPoints.png"),
+            //    NEDFORFOOD = "20000",
+            //    BUSY = false,
+            //    GUARDIANSHIP = false,
+            //    WALKTIME = "12.30\\15.30",
+            //    FOODTYPE = Model.foodtype.Pedigree.ToString()
+            //    };
+                //     //DBCONN.Db.SaveDogs(dog);
+                //     //List<Dogs> a = DBCONN.Db.GetDogs();
+                //     //for (int i = 0; i < a.Count; i++)
+                //     //{
+                //     //    Console.WriteLine(a[i].WEIGHT);
+                //     //}
+                //     //}
+
+                //DBCONN.Db.SaveDogs(dog);
+                // };
+                //DBCONN.Db.SaveUsers(users);
             }
-        }
     }
 }

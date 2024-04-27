@@ -13,15 +13,15 @@
     <StackLayout>
         <Image Source="account.png" Margin="0,10,0,0">
         </Image>
-        <Label Text="ВАШЕ ИМЯ" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Label Text="{Binding Username}" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center"/>
         <BoxView Margin="0,10,0,10" HeightRequest="2" BackgroundColor="#9B9B9B"></BoxView>
         <Frame Grid.Row="0" Grid.RowSpan="3" Grid.ColumnSpan="2" BackgroundColor="#DEDEDE" CornerRadius="20" Margin="15">
             <StackLayout>
                 <Label Text="Ваша статистика:" FontSize="Title" FontAttributes="Bold"/>
                 <BoxView Margin="1,10,1,10" HeightRequest="2" BackgroundColor="#9B9B9B"></BoxView>
-                <Label Text="" FontSize="Title"/>
-                <Label Text="Ваш уровень:" FontSize="Body"/>
-                <Label Text="Ваш уровень:" FontSize="Body"/>
+                <Label Text="{Binding Food_donate}" FontSize="Title"/>
+                <Label Text="{Binding Exp}" FontSize="Title"/>
+               
                 <!--<Label Text="Ваш уровень:" FontSize="Body"/>
                 <Label Text="Ваш уровень:" FontSize="Body"/>
                 <Label Text="Ваш уровень:" FontSize="Body"/>

@@ -39,7 +39,9 @@ namespace resheniekeysa
         
         async void petAround(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new petAround());
+          
+                await Navigation.PushAsync(new petAround());
+           
 
         }
        

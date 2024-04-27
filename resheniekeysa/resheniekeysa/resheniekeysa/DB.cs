@@ -14,11 +14,16 @@ namespace resheniekeysa
             CONNECTION = new SQLiteConnection(path);
             CONNECTION.CreateTable<Dogs>();
             CONNECTION.CreateTable<Users>();
+            CONNECTION.CreateTable<Requests>();
         }
 
         public List<Users> GetUsers()
         {
             return CONNECTION.Table<Users>().ToList(); 
+        }
+        public List<Requests> GetRequests()
+        {
+            return CONNECTION.Table<Requests>().ToList();
         }
         public Users GetUser(string login)
         {
@@ -36,9 +41,17 @@ namespace resheniekeysa
         {
            CONNECTION.Insert(user);
         }
+        public void SaveRequests(Requests requests)
+        {
+            CONNECTION.Insert(requests);
+        }
         public void SaveDogs(Dogs dog)
         {
             CONNECTION.Insert(dog);
+        }
+        public void DEL<T>()
+        {
+            CONNECTION.DeleteAll<T>();
         }
         
     }

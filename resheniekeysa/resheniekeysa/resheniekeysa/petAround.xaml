@@ -1,7 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:resheniekeysa="clr-namespace:resheniekeysa" 
-             x:Class="resheniekeysa.petAround">
+             x:Class="resheniekeysa.petAround"
+              xmlns:controls="clr-namespace:resheniekeysa.controls">
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor"
+                                    Value="#DEDEDE" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
     <StackLayout Spacing="10" Margin="20">
         <StackLayout Orientation="Horizontal" Spacing="100" Margin="5">
             <Label Text="Подопечные"/>
@@ -9,6 +27,7 @@
             <Image/>
         </StackLayout>
         <BoxView Margin="0,10,0,10" HeightRequest="2" BackgroundColor="#9B9B9B"></BoxView>
+      
         <CollectionView ItemsSource="{Binding DogsList}" SelectionMode="Single" SelectionChanged="select" >
             <CollectionView.ItemTemplate >
                 <DataTemplate >

@@ -3,11 +3,13 @@ using System;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using Xamarin.Forms;
 
 namespace resheniekeysa
 {
     public static class Model
     {
+      
         public static IList<Dogs> DogsList { get; set; } 
         public static Users MainUser;
         public static bool Log_status;
@@ -20,9 +22,10 @@ namespace resheniekeysa
         }
          static Model()
         {
-          
+           
             DogsList = DBCONN.Db.GetDogs();
         }
+    
         public static void registr_log(string log, string pass)
         {
             Users tempus = DBCONN.Db.GetUser(log);
