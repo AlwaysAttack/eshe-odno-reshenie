@@ -2015,7 +2015,6 @@ E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\res
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\magnifier.png
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\leaveicon.png
 E:\Other Programms\VSProjects\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\buttonfav.png
-C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\bin\Debug\DataBase.sqlite3
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\drawable.rar
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\account.png
 C:\Users\Okunk\Documents\GitHub\eshe-odno-reshenie\resheniekeysa\resheniekeysa\resheniekeysa.Android\obj\Debug\130\res\drawable\allactions.png

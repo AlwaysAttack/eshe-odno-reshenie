@@ -16,8 +16,8 @@ namespace resheniekeysa.table
 
         public string NEDFORFOOD { get; set; }//потребность в еде кг\день
 
-        public string BUSY { get; set; }//занятость 
-        public string GUARDIANSHIP { get; set; }//опекунство
+        public bool BUSY { get; set; }//занятость 
+        public bool GUARDIANSHIP { get; set; }//опекунство
         
         public string WALKTIME { get; set; }//время прогулки
 

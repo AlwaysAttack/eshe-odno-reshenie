@@ -48,6 +48,7 @@ namespace resheniekeysa
                     return "Свободен";
                 }
                 }
+            set { Busy = value.ToString();OnPropertyChanged("Busy"); }
           
         }
         public string Weight
@@ -81,7 +82,15 @@ namespace resheniekeysa
             InitializeComponent();
             Model.currentDog = dog;
             //Dogs=dog;
-         
+            pathphoto = Model.currentDog.PATHPHOTO;
+            name = Model.currentDog.NAME;
+            busy = Model.currentDog.BUSY;
+            weight = Model.currentDog.WEIGHT;
+            nedforfood = Model.currentDog.NEDFORFOOD;
+            foodtype = Model.currentDog.FOODTYPE;
+            guardianship = Model.currentDog.GUARDIANSHIP;
+            walktime = Model.currentDog.WALKTIME;
+
             BindingContext = this;
         }
 
