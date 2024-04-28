@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.MainPageAdmin.xaml", "adminpage/MainPageAdmin.xaml", typeof(global::resheniekeysa.adminpage.MainPageAdmin))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("resheniekeysa.adminpage.MainPageadmin.xaml", "adminpage/MainPageadmin.xaml", typeof(global::resheniekeysa.adminpage.MainPageAdmin))]
 
 namespace resheniekeysa.adminpage {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("adminpage\\MainPageAdmin.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("adminpage\\MainPageadmin.xaml")]
     public partial class MainPageAdmin : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
@@ -35,10 +36,19 @@ namespace resheniekeysa
             get { return name; }
             set { name = value; OnPropertyChanged("Name"); }
         }
-        public bool Busy
+        public string Busy
         {
-            get { return busy; }
-            set { busy = value; OnPropertyChanged("Busy"); }
+            get {
+                if (busy == false)
+                {
+                    return "Занят";
+                }
+                else
+                {
+                    return "Свободен";
+                }
+                }
+          
         }
         public string Weight
         {
@@ -69,16 +79,9 @@ namespace resheniekeysa
         public DogDetailPage( Dogs dog)
         {
             InitializeComponent();
-
+            Model.currentDog = dog;
             //Dogs=dog;
-            PathPhoto = dog.PATHPHOTO;
-            Name= dog.NAME;
-            Busy = dog.BUSY;
-            Weight = dog.WEIGHT;
-            Nedforfood = dog.NEDFORFOOD;
-            Guardianship = dog.GUARDIANSHIP;
-            Walktime = dog.WALKTIME;
-            Foodtype = dog.FOODTYPE;
+         
             BindingContext = this;
         }
 

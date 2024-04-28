@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="resheniekeysa.adminpage.MainPageAdmin">
+             x:Class="resheniekeysa.adminpage.MainPageAdmin"
+              NavigationPage.HasBackButton="False">
 
     <Grid Margin="5">
         <Grid.RowDefinitions>
@@ -19,7 +20,7 @@
         <Button TextColor="Black" Grid.Row="0" Grid.Column="0" Text="Получить материальную помощь (зачисление волонтёрам)" BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_acceptHelp"/>
         <Button TextColor="Black" Grid.Row="0" Grid.Column="1" Text="Управление карточками питомцев"  BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_editProfiles"/>
         <Button TextColor="Black" Grid.Row="1" Grid.Column="1" Text="Присвоить статус опекунства/занятости питомцам" BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_statusProfiler"/>
-        <Button TextColor="Black" Grid.Row="1" Grid.Column="0" Text="Принять запрос пользователя по горячей линии (оператор)" BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_acceptRequest"/>
+        <Button TextColor="Black" Grid.Row="1" Grid.Column="0" Text="Заявки" BackgroundColor="White" CornerRadius="20" Margin="5" Clicked="Button_Clicked_acceptRequest"/>
         <ImageButton Grid.Row="2" Grid.Column="1" Source="leaveIcon.png"  VerticalOptions="End" HorizontalOptions="End" BackgroundColor="Transparent" CornerRadius="100" Margin="5">
             <VisualStateManager.VisualStateGroups>
                 <VisualStateGroup x:Name="CommonStates">

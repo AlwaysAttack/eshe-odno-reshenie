@@ -3,41 +3,113 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="resheniekeysa.adminpage.editProfiles">
     <StackLayout>
-    <CollectionView ItemsSource="{Binding DogsList}" SelectionMode="Single" SelectionChanged="CollectionView_SelectionChanged" SelectedItem="{Binding Col_item}">
-    <CollectionView.ItemsLayout>
-        <LinearItemsLayout Orientation="Vertical" ItemSpacing="20"/>
+        <CollectionView ItemsSource="{Binding DogsL}" SelectionMode="Single" SelectionChanged="select">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
 
-    </CollectionView.ItemsLayout>
-    <CollectionView.ItemTemplate>
-        <DataTemplate>
-            <ContentView BackgroundColor="White">
-                <Grid Padding="2"
-                          ColumnDefinitions="2*, 9*, 2*">
-                    <Image Source="{Binding PATHPHOTO}"></Image>
-                    <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="3" Margin="5">
+                    <Grid>
+                        <ContentView BackgroundColor="White">
 
-                        <Label FontSize="Large" Text="{Binding NAME}" FontAttributes="Bold">
-                        </Label>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
 
-                        <Label FontSize="Small">
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    <Span Text="Номер ID:" />
-                                    <Span Text=" " />
-                                    <Span Text="{Binding ID}" FontAttributes="Bold" />
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
+                                <Label  Grid.Column="0" Grid.Row="0" >
 
-                    </StackLayout>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="ID собаки" />
+                                            <Span Text=" " />
+                                            <Span Text="{Binding ID}" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
 
+                                </Label>
 
-                    <Button Grid.Column="2" Text="Удалить профиль" Margin="5"/>
+                                <Label  Grid.Column="0" Grid.Row="1" >
 
-                </Grid>
-            </ContentView>
-        </DataTemplate>
-    </CollectionView.ItemTemplate>
-</CollectionView>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Путь к фото" />
+                                            <Span Text=" " />
+                                            <Span Text="{Binding PATHPHOTO}" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+
+                                </Label>
+
+                                <Label  Grid.Column="0" Grid.Row="2" >
+
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="масса" />
+                                            <Span Text=" " />
+                                            <Span  Text="{Binding WEIGHT}" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+
+                                </Label>
+
+                                <Label  Grid.Column="0" Grid.Row="3" >
+
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Занятость " />
+                                            <Span Text=" " />
+                                            <Span Text="{Binding BUSY}" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+
+                                </Label>
+
+                                <Label  Grid.Column="0" Grid.Row="4" >
+
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Норма еды (кг\день)" />
+                                            <Span Text=" " />
+                                            <Span Text="{Binding NEDFORFOOD}" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+
+                                </Label>
+                                <Label  Grid.Column="0" Grid.Row="4" >
+
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Время прогулок" />
+                                            <Span Text=" " />
+                                            <Span Text="{Binding WALKTIME}" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+
+                                </Label>
+                                <Label  Grid.Column="0" Grid.Row="4" >
+
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Тип корма" />
+                                            <Span Text=" " />
+                                            <Span Text="{Binding FOODTYPE}" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+
+                                </Label>
+
+                            </Grid>
+                        </ContentView>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </StackLayout>
 </ContentPage>

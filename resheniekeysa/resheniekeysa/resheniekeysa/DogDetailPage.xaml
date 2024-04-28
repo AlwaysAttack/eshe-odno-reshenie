@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="resheniekeysa.DogDetailPage">
     <Grid 
-        RowDefinitions="10*, 5*, 3*, 12*" ColumnDefinitions="*, *">
+        RowDefinitions="10*, 10*, 3*, 12*" ColumnDefinitions="*, *">
         <Image Grid.Row="0" Grid.ColumnSpan="2" HeightRequest="300" Source="{Binding PathPhoto}"/>
         <Frame BackgroundColor="#dedede" CornerRadius="20" Grid.Row="1" Grid.ColumnSpan="2">
             <StackLayout Spacing="3">
@@ -12,7 +12,7 @@
                 <Label FontSize="Default">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="Вес:" />
+                            <Span Text="Масса:" />
                             <Span Text=" " />
                             <Span Text="{Binding Weight}" FontAttributes="Bold" />
                         </FormattedString>
@@ -22,7 +22,7 @@
                 <Label FontSize="Default">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="Потребность в еде:" />
+                            <Span Text="Потребность в еде(кг\день):" />
                             <Span Text=" " />
                             <Span Text="{Binding Nedforfood}" FontAttributes="Bold" />
                         </FormattedString>

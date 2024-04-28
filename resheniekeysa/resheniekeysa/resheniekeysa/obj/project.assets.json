@@ -1234,23 +1234,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dgols\\.nuget\\packages\\": {},
-    "E:\\Other Programms\\VS Packages\\NuGetPackages": {}
+    "C:\\Users\\Okunk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
+      "projectUniqueName": "C:\\Users\\Okunk\\Documents\\GitHub\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
       "projectName": "resheniekeysa",
-      "projectPath": "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
-      "packagesPath": "C:\\Users\\dgols\\.nuget\\packages\\",
-      "outputPath": "E:\\Other Programms\\VSProjects\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\obj\\",
+      "projectPath": "C:\\Users\\Okunk\\Documents\\GitHub\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\resheniekeysa.csproj",
+      "packagesPath": "C:\\Users\\Okunk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Okunk\\Documents\\GitHub\\eshe-odno-reshenie\\resheniekeysa\\resheniekeysa\\resheniekeysa\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\Other Programms\\VS Packages\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dgols\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Okunk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1272,11 +1272,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1321,7 +1316,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -26,5 +26,10 @@ namespace resheniekeysa
         {
             await Navigation.PushAsync(new donateFoodChoosed());
         }
+
+        async void DonateToy(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new donateToychoosed());
+        }
     }
 }

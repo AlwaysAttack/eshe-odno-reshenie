@@ -9,8 +9,10 @@ namespace resheniekeysa
 {
     public static class Model
     {
-      
-        public static IList<Dogs> DogsList { get; set; } 
+        public static Dogs currentDog;
+        public static Requests currentreq;
+        public static IList<Dogs> DogsList { get; set; }
+        public static IList<Requests> RequestsList { get; set; }
         public static Users MainUser;
         public static bool Log_status;
         public  enum foodtype
@@ -20,9 +22,28 @@ namespace resheniekeysa
             Brit_Premium_By_Nature,
             Pedigree
         }
-         static Model()
+        public enum Requeststype
         {
-           
+            Игрушка,
+            Корм,
+            Заявка_на_опекунство
+
+        }
+        public enum enBUSY
+        {
+            Гуляю,
+            Кушаю,
+            Сплю
+
+        }
+        public enum enGUARDIANSHIP {
+            Да,
+            Нет
+        }
+
+        static Model()
+        {
+            RequestsList = DBCONN.Db.GetRequests();
             DogsList = DBCONN.Db.GetDogs();
         }
     

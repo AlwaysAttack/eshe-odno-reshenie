@@ -7,6 +7,8 @@
             <Entry x:Name="PhoneNumber"
            Placeholder="Номер телефона"></Entry>
             <Entry x:Name="NameHelper" Placeholder="Ваше имя"/>
+            <Entry x:Name="Quent" Placeholder="Количество корма в кг"/>
+            
             <Button x:Name="sendREQUESTdonateFood" Text="Отправить запрос" BackgroundColor="#65AC64" CornerRadius="20" Clicked="sendREQUESTdonateFood_Clicked"/>
         </StackLayout>
     </ContentPage.Content>

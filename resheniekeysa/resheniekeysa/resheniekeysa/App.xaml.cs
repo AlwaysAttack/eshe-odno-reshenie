@@ -1,4 +1,5 @@
 ﻿using resheniekeysa;
+using resheniekeysa.adminpage;
 using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
@@ -12,18 +13,13 @@ namespace resheniekeysa
         public App()
         {
             InitializeComponent();
-            routes = new Dictionary<string, Type>();
-            //MainPage = new NavigationPage(new MainPage());  
-            MainPage = new MainNavigate();
+
+            MainPage = new MainNavigate();  
+            ////MainPage  = new editprofiledetails();
+            //MainPage = new NavigationPage(new MainNavigate());
+
         }
-        public static void RegisterRoutes()
-        {
-            routes.Add("dotdetails", typeof(DogDetailPage));
-            foreach (var item in routes)
-            {
-                Routing.RegisterRoute(item.Key, item.Value);
-            }
-        }
+       
         protected override void OnStart()
         {
         }

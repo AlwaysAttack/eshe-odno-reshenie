@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="resheniekeysa.Detailreq">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="подтвердите правдивость заявки"
+                VerticalOptions="Start" 
+                 />
+            <Button Text="ПРИНЯТЬ ЗАЯВКУ" BackgroundColor="#65AC64" CornerRadius="20" Clicked="acc"/>
+            <Button Text="ОТКЛОНИТЬ ЗАЯВКУ" BackgroundColor="Red" CornerRadius="20" Clicked="del"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

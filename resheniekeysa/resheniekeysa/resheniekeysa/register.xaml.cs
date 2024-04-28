@@ -1,4 +1,5 @@
-﻿using System;
+﻿using resheniekeysa.adminpage;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,13 +22,8 @@ namespace resheniekeysa
 
         private async void Reg(object sender, EventArgs e)
         {
-			try {
-              
-        
-            
-             
-            
-        
+            try
+            {
                 string log;
                 string pass;
                 log = Login.Text.Trim();
@@ -37,16 +33,23 @@ namespace resheniekeysa
                 Password.Text = null;
                 if (Model.Log_status == true)
                 {
-                    await Navigation.PushAsync(new temptest());
-                  
+                    if (Model.MainUser.ISADMIN == true)
+                    {
+
+                        await Navigation.PushAsync(new MainPageAdmin());
+                    }
+                    else
+                    {
+                        await Navigation.PushAsync(new temptest());
+                    }
+
+
                 }
-          
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
             }
-			
         }
     }
 }

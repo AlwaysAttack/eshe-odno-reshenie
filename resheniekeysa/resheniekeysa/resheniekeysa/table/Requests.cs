@@ -13,5 +13,7 @@ namespace resheniekeysa.table
         public string USERNAM_REQUEST { get; set; }
         public string QUANTITY { get; set; }
         public int ID_DOG { get; set; }
+        public string PHONE_NUMBER { get; set; }
+        public bool STATUS { get; set; }
     }
 }

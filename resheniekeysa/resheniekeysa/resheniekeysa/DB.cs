@@ -49,10 +49,18 @@ namespace resheniekeysa
         {
             CONNECTION.Insert(dog);
         }
-        public void DEL<T>()
+        public void DELALL<T>()
         {
             CONNECTION.DeleteAll<T>();
         }
-        
+        public void DEL<T>(int id)
+        {
+            CONNECTION.Delete<T>(id);
+        }
+        public void UPreq(Requests req)
+        {
+            CONNECTION.Update(req);
+        }
+
     }
 }

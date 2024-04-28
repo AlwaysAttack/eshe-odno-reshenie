@@ -4,8 +4,9 @@
              x:Class="resheniekeysa.ActionsDogChoosed">
     <ContentPage.Content>
         <StackLayout Margin="10" Spacing="15">
-            <Button Margin="5" Text="Погулять" BackgroundColor="#65AC64" CornerRadius="20" Clicked="Button_Clicked"/>
+            <Button Margin="5" Text="Взять в опекунство" BackgroundColor="#65AC64" CornerRadius="20" Clicked="Button_Clicked"/>
             <Button x:Name="DonateFoodButton"  Margin="5" Text="Пожертвовать корм" CornerRadius="20" Clicked="DonateFoodButton_Clicked"/>
+            <Button x:Name="DonateToyButton"  Margin="5" Text="Пожертвовать игрушку" CornerRadius="20" Clicked="DonateToy"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

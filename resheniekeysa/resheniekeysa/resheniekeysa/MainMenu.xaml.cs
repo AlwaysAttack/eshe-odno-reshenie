@@ -30,7 +30,12 @@ namespace resheniekeysa
 
         }
 
-        
+        protected override bool OnBackButtonPressed()
+        {
+            // By returning TRUE and not calling base we cancel the hardware back button 🙂
+            base.OnBackButtonPressed();
+            return true;
+        }
         async void helpPoints(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new helpPoints());
